@@ -7,5 +7,9 @@ Tauri can be use with an existing webserver or internally. This project encompas
 * src-tauri - The auto-generated folder using thet Tauri application. This contains everything required to render a static website inside a Rust app
 * src-tauri/src - Contains the Rust applicaiton itself. Note that `main.rs` should not be modified, which is the entry point of the application. `lib.ts` should be used for code. This file also contains the `command` to allow JavaScript from your static website to talk to Rust.
 
+# Quickstart
+* Ensure you install Rust and Tauri. See more information link.
+* Build using `cargo tauri dev` inside the `src-tauri` folder.
+
 ## More Information
 [Tauri] https://v2.tauri.app/
