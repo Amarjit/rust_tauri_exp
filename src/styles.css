@@ -1,0 +1,16 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 4rem;
+}
+
+.result {
+    padding: 1rem;
+    background-color: blue;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
